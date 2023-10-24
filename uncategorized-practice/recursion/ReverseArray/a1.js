@@ -1,3 +1,5 @@
+//brute
+
 let fn = (n, arr) => {
   if (n === 0) return [];
   return [...fn(n - 1, arr.slice(1, n)), arr[0]];
